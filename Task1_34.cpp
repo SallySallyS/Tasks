@@ -1,6 +1,8 @@
 ﻿
 #include <iostream>
-
+//Составить программу решения линейного уравнения
+// ax+b=0
+// (a != 0).
 static double solution(double a, double b) {
 	if (a == 0) {
 		std::cout << "error" << std::endl;
