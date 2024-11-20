@@ -12,5 +12,6 @@ int main()
 	std::cin >> aString;
 	double a = std::stoi(aString);
 	std::cout <<"Perimeter: "<< perimeter(a) << std::endl;
+	return 0;
 }
 
