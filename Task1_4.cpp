@@ -14,7 +14,7 @@ int main()
 
 	int a = std::stoi(aString);
 	std::cout << "You enter: " << a << std::endl;
-
+	return 0;
 
 }
 
