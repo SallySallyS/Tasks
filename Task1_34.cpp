@@ -5,7 +5,7 @@
 // (a != 0).
 static double solution(double a, double b) {
 	if (a == 0) {
-		std::cout << "error" << std::endl;
+		std::cout << "Error: 'a' can't be equal to 0" << std::endl;
 		return 0 ;
 	}
 	return -b / a;
