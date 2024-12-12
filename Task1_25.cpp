@@ -7,7 +7,7 @@ static double perimeter(double a) {
 }
 int main()
 {
-	std::cout << "Enter: ";
+	std::cout << "Enter a square side: ";
 	std::string aString;
 	std::cin >> aString;
 	double a = std::stoi(aString);
