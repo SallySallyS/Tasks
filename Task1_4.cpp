@@ -1,4 +1,4 @@
-﻿
+
 #include <iostream>
 #include <sstream>
 
@@ -9,12 +9,14 @@ int main()
 {
 	std::cout << "Enter: ";
 	std::string aString;
-
 	std::cin >> aString;
-
-	int a = std::stoi(aString);
-	std::cout << "You enter: " << a << std::endl;
-	return 0;
-
+	try 
+	{
+		int a = std::stoi(aString);
+		std::cout << "You enter: " << a << std::endl;
+	}
+	catch(...)
+	{
+		std::cout << "Error" << std::endl;
+	}
 }
-
