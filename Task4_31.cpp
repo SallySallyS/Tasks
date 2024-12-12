@@ -1,4 +1,4 @@
-﻿//Дано трехзначное число.
+//Дано трехзначное число.
 //а) Верно ли, что все его цифры одинаковые ?
 //б) Определить, есть ли среди его цифр одинаковые.
 #include <iostream>
@@ -28,12 +28,10 @@ static bool checkNumberB(int c) {
     return false;
 }
 
-int main()
+int main(int argc, char* argv[])
 {
-    std::string aString;
-    std::cout << "Enter a: " << std::endl;
-    std::cin >> aString;
-    int a = std::stoi(aString);
+    
+    int a = std::stoi(argv[1]);
     bool resulteA = checkNumberA(a);
 
     if (resulteA == true) 
